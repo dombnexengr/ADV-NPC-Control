@@ -1,0 +1,122 @@
+config = {
+    a_players_under_1 = { -- This will by checked first and trigger if the playercount on the server is below 1
+        VehicleDensityMultiplier = 0.1, -- 0.00 - 1.00
+        ParkedVehicleDensityMultiplier = 0.1, -- 0.00 - 1.00
+        PedDensityMultiplier = 0.1, -- 0.00 - 1.00
+        ScenarioPedDensityMultiplier = 0.1, -- 0.00 - 1.00
+        DisabledDispatchServices = { -- Which dispatch services to disable
+            PoliceAutomobile = true,
+            PoliceAutomobileWaitPulledOver = true,
+            PoliceAutomobileWaitCruising = true,
+            PoliceRoadBlock = true,
+            PoliceRiders = true,
+            PoliceVehicleRequest = true,
+            PoliceHelicopter = true,
+            PoliceBoat = true,
+            SwatAutomobile = true,
+            SwatHelicopter = true,
+            ArmyVehicle = true,
+            FireDepartment = true,
+            AmbulanceDepartment = true,
+            Gangs = false,
+            BikerBackup = false
+        },
+        DisableCops = true -- Wether cops will chase the player or not
+    },
+    b_players_under_2 = {
+        VehicleDensityMultiplier = 1,
+        ParkedVehicleDensityMultiplier = 1,
+        PedDensityMultiplier = 1,
+        ScenarioPedDensityMultiplier = 1,
+        DisabledDispatchServices = {
+            PoliceAutomobile = true,
+            PoliceAutomobileWaitPulledOver = true,
+            PoliceAutomobileWaitCruising = true,
+            PoliceRoadBlock = true,
+            PoliceRiders = true,
+            PoliceVehicleRequest = true,
+            PoliceHelicopter = true,
+            PoliceBoat = true,
+            SwatAutomobile = true,
+            SwatHelicopter = true,
+            ArmyVehicle = true,
+            FireDepartment = true,
+            AmbulanceDepartment = true,
+            Gangs = false,
+            BikerBackup = false
+        },
+        DisableCops = true
+    },
+    c_percent_under_20 = {
+        VehicleDensityMultiplier = .8,
+        ParkedVehicleDensityMultiplier = .8,
+        PedDensityMultiplier = .8,
+        ScenarioPedDensityMultiplier = .8,
+        DisabledDispatchServices = {
+            PoliceAutomobile = true,
+            PoliceAutomobileWaitPulledOver = true,
+            PoliceAutomobileWaitCruising = true,
+            PoliceRoadBlock = true,
+            PoliceRiders = true,
+            PoliceVehicleRequest = true,
+            PoliceHelicopter = true,
+            PoliceBoat = true,
+            SwatAutomobile = true,
+            SwatHelicopter = true,
+            ArmyVehicle = true,
+            FireDepartment = true,
+            AmbulanceDepartment = true,
+            Gangs = false,
+            BikerBackup = false
+        },
+        DisableCops = true
+    },
+    d_percent_under_40 = {
+        VehicleDensityMultiplier = .6,
+        ParkedVehicleDensityMultiplier = .6,
+        PedDensityMultiplier = .6,
+        ScenarioPedDensityMultiplier = .6,
+        DisabledDispatchServices = {
+            PoliceAutomobile = true,
+            PoliceAutomobileWaitPulledOver = true,
+            PoliceAutomobileWaitCruising = true,
+            PoliceRoadBlock = true,
+            PoliceRiders = true,
+            PoliceVehicleRequest = true,
+            PoliceHelicopter = true,
+            PoliceBoat = true,
+            SwatAutomobile = true,
+            SwatHelicopter = true,
+            ArmyVehicle = true,
+            FireDepartment = true,
+            AmbulanceDepartment = true,
+            Gangs = false,
+            BikerBackup = false
+        },
+        DisableCops = true
+    },
+    e_percent_over_50 = {
+        VehicleDensityMultiplier = .5,
+        ParkedVehicleDensityMultiplier = .5,
+        PedDensityMultiplier = .5,
+        ScenarioPedDensityMultiplier = .5,
+        DisabledDispatchServices = {
+            PoliceAutomobile = true,
+            PoliceAutomobileWaitPulledOver = true,
+            PoliceAutomobileWaitCruising = true,
+            PoliceRoadBlock = true,
+            PoliceRiders = true,
+            PoliceVehicleRequest = true,
+            PoliceHelicopter = true,
+            PoliceBoat = true,
+            SwatAutomobile = true,
+            SwatHelicopter = true,
+            ArmyVehicle = true,
+            FireDepartment = true,
+            AmbulanceDepartment = true,
+            Gangs = false,
+            BikerBackup = false
+        },
+        DisableCops = true
+    }
+}
